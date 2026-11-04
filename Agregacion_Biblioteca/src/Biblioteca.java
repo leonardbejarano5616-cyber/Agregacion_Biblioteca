@@ -19,7 +19,7 @@ public class Biblioteca {
             cantidad++;
             System.out.println("libro \"" + libro.getTitulo() + "\" fue agregado al catalogo.");
         } else {
-            System.out.println("El catalogo esta lleno. No ae puede agregar mas libros.");
+            System.out.println("El catalogo esta lleno. No se puede agregar mas libros.");
         }
     }
     public void mostrarCatalogo(){
